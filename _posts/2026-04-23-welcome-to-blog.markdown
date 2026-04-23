@@ -8,9 +8,9 @@ Welcome to my blog!
 
 ## 💼 What I Do
 
-- Build scalable, efficient apps using C++, Qt, .NET, UWP, and WPF
-- Develop real-time media streaming and recording systems with WebRTC, FFMPEG, and DirectX
-- Architect secure backend and APIs using C#, gRPC, and ASP.NET
+- Build scalable, efficient apps using C++, Qt, C#, .NET, UWP, WPF, WinUI, .NET MAUI, XAML
+- Develop real-time media streaming and recording systems with WebRtc, ffmpeg
+- Architect secure backend and APIs using C#, gRPC and ASP.NET
 - Deliver clean, maintainable, performance-focused code
 
 ## 🧰 Tech Toolbox
@@ -28,4 +28,5 @@ I'm always open to new opportunities, collaborations, or connecting with fellow 
 ## 📬 Contact
 
 **Name:** {{ site.my_username }}  
+**LinkedId:** [{{ site.linkedin_username }}](https://www.linkedin.com/in/{{ site.linkedin_username }})
 **Email:** [{{ site.email }}](mailto:{{ site.email }})
