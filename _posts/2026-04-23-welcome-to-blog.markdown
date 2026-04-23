@@ -15,7 +15,7 @@ Welcome to my blog!
 
 ## 🧰 Tech Toolbox
 
-C++, C#, Qt, WinAPI, LVGL, UWP, WPF, ASP.NET MVC, WebRTC, FFMPEG, DirectX, gRPC, CMake, WiX, Inno Setup, Blockchain (Monero, xmrig), Electron.js, MQTT, SQLite
+C++, C#, Qt, WinAPI, LVGL, UWP, WPF, ASP.NET MVC, WebRTC, FFMPEG, DirectX, gRPC, CMake, WiX, Inno Setup, Blockchain (Solidity), Electron.js, MQTT, SQLite
 
 ## 💡 My Approach
 
