@@ -8,7 +8,7 @@ Hi, I'm {{ site.my_username }} - a freelance C++/C# developer working on desktop
 
 ## About this blog
 
-This isn't a single-topic blog. I write about whatever I find worth thinking through — work and technology, things I've read, ideas that surface between projects. The format is loose: short notes, longer write-ups, occasional experiments. My only rule is to write when I actually have something to say.
+This isn't a single-topic blog. I write about whatever I find worth thinking through - work and technology, things I've read, ideas that surface between projects. The format is loose: short notes, longer write-ups, occasional experiments. My only rule is to write when I actually have something to say.
 
 ## What I do
 
