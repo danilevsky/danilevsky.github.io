@@ -1,15 +1,14 @@
 ---
 layout: post
-title: "Welcome to my blog!"
-date: 2026-04-23 15:14:18 +0300
-categories: [General]
-tags: [intro]
+title:  "Welcome to my blog!"
+date:   2026-04-23 15:14:18 +0300
+categories: jekyll update
 ---
 Welcome to my blog!
 
 ## 💼 What I Do
 
-- Build scalable , efficient apps using C++, Qt, C#, .NET, UWP, WPF, WinUI, .NET MAUI, XAML
+- Build scalable, efficient apps using C++, Qt, C#, .NET, UWP, WPF, WinUI, .NET MAUI, XAML
 - Develop real-time media streaming and recording systems with WebRtc, ffmpeg
 - Architect secure backend and APIs using C#, gRPC and ASP.NET
 - Deliver clean, maintainable, performance-focused code
