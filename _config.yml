@@ -30,7 +30,8 @@ github_username: danilevsky
 linkedin_username: "danilevskiyd"
 my_username: "Denis Danilevsky"
 # Build settings
-theme: minima
+# theme: minima
+theme: minimal-mistakes-jekyll
 plugins:
   - jekyll-feed
 
