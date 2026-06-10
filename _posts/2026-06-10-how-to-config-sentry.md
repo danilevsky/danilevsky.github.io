@@ -109,7 +109,7 @@ sudo systemctl reload nginx
 2.3 Request certifcate
 ```
 sudo mkdir -p /var/www/html
-sudo certbot certonly --webroot -w /var/www/html -d sentry.example.com --email support@hamradiodeluxellc.com --agree-tos --no-eff-email
+sudo certbot certonly --webroot -w /var/www/html -d sentry.example.com --email support@example.com --agree-tos --no-eff-email
 ```
 
 2.4 Create dhparam:
