@@ -1,8 +1,11 @@
 ---
-layout: post
-title:  "Welcome to my blog!"
+title: "Welcome to my blog!"
 date:   2026-04-23 15:14:18 +0300
-categories: jekyll update
+categories:
+  - blog
+tags:
+  - link
+  - Post Formats
 ---
 Welcome to my blog!
 
