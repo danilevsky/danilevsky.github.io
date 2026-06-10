@@ -1,17 +1,18 @@
 ---
-title: "Welcome to my blog!"
+title: "How to setup Sentry self-hosted"
 date:   2026-06-10 10:00:00 +0300
 categories:
   - blog
 tags:
   - sentry
   - crashes
+  - docker
 ---
 
 ## 1. Install Sentry
 
 
-1.1 Install from repository:
+### 1.1 Install from repository:
 ```
 VERSION=$(curl -Ls -o /dev/null -w %{url_effective} https://github.com/getsentry/self-hosted/releases/latest)
 VERSION=${VERSION##*/}
@@ -21,7 +22,7 @@ git checkout ${VERSION}
 ./install.sh
 ```
 
-1.2 Update sentry/config.yml
+### 1.2 Update sentry/config.yml
 
 Update system.url-prefix:
 ```
@@ -29,7 +30,7 @@ system.url-prefix: 'https://sentry.example.com'
 ```
 
 
-Update mail settings:
+Update email settings:
 ```
 ###############
 # Mail Server #
@@ -43,7 +44,7 @@ mail.password: '<PWD>'
 ```
 
 
-1.3 Update sentry/sentry.conf.py
+### 1.3 Update sentry/sentry.conf.py
 
 Update CSRF:
 ```
@@ -65,7 +66,7 @@ SESSION_COOKIE_SECURE = True
 CSRF_COOKIE_SECURE = True
 SOCIAL_AUTH_REDIRECT_IS_HTTPS = True
 ```
-1.4 Restart docker
+### 1.4 Restart docker
 ```
 docker composer down
 docker composer up -d
@@ -76,7 +77,7 @@ docker composer up -d
 sudo apt install nginx certbot python3-certbot-nginx
 ```
 
-2.2 Create 'sentry' nginx config:
+### 2.2 Create 'sentry' nginx config:
 
 ```
 sudo nano /etc/nginx/sites-available/sentry
@@ -100,24 +101,24 @@ server {
 }
 ```
 
-2.2 Check config file and reload server
+### 2.2 Check config file and reload server
 ```
 sudo nginx -t
 sudo systemctl reload nginx
 ```
 
-2.3 Request certifcate
+### 2.3 Request certifcate
 ```
 sudo mkdir -p /var/www/html
 sudo certbot certonly --webroot -w /var/www/html -d sentry.example.com --email support@example.com --agree-tos --no-eff-email
 ```
 
-2.4 Create dhparam:
+### 2.4 Create dhparam:
 ```
 sudo ls /etc/letsencrypt/ffdhe2048.txt || sudo curl -o /etc/letsencrypt/ffdhe2048.txt https://ssl-config.mozilla.org/ffdhe2048.txt
 ```
 
-2.5 Set full nginx config:
+### 2.5 Set full nginx config:
 
 ```
 sudo nano /etc/nginx/sites-available/sentry
@@ -183,14 +184,14 @@ server {
 }
 ````
 
-2.6 Check nginx config and reload:
+### 2.6 Check nginx config and reload:
 ```
 sudo nginx -t
 sudo systemctl reload nginx
 curl -I https://sentry.example.com
 ```
 
-2.6 Restart sentry docker:
+### 2.6 Restart sentry docker:
 ```
 docker compose down
 docker compose up -d
