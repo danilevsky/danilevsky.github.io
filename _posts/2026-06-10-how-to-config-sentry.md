@@ -204,7 +204,7 @@ docker compose up -d
 ```
 
 ## Links:
- - https://develop.sentry.dev/self-hosted/
- - https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-22-04
- - https://www.digitalocean.com/community/tutorials/initial-server-setup-with-ubuntu
- - https://support.google.com/accounts/answer/185833?hl=en
+ - <https://develop.sentry.dev/self-hosted/>
+ - <https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-22-04>
+ - <https://www.digitalocean.com/community/tutorials/initial-server-setup-with-ubuntu>
+ - <https://support.google.com/accounts/answer/185833?hl=en>
