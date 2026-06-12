@@ -1,6 +1,6 @@
 ---
-title: "How to setup Sentry self-hosted"
-date:   2026-06-10 10:00:00 +0300
+title: "How to setup Sentry self-hosted, Nginx with Let's Encrypt"
+date:   2026-06-12 10:00:00 +0300
 categories:
   - blog
 tags:
@@ -11,6 +11,13 @@ tags:
 
 ## 1. Install Sentry
 
+First, prepare your Ubuntu server by adding a [user](https://www.digitalocean.com/community/tutorials/initial-server-setup-with-ubuntu) and installing [Docker](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-22-04).
+
+These are the minimum requirements for Sentry self-hosted:
+
+- 4 CPU Cores
+- 16 GB RAM + 16 GB swap
+- 20 GB Free Disk Space
 
 ### 1.1 Install from repository:
 ```
@@ -42,7 +49,6 @@ mail.port: 587
 mail.username: '<USERNAME>'
 mail.password: '<PWD>'
 ```
-
 
 ### 1.3 Update sentry/sentry.conf.py
 
@@ -196,3 +202,9 @@ curl -I https://sentry.example.com
 docker compose down
 docker compose up -d
 ```
+
+## Links:
+ - https://develop.sentry.dev/self-hosted/
+ - https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-22-04
+ - https://www.digitalocean.com/community/tutorials/initial-server-setup-with-ubuntu
+ - https://support.google.com/accounts/answer/185833?hl=en

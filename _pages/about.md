@@ -19,4 +19,4 @@ Topics I tend to come back to: Qt and QML, cross-platform development, embedded 
 
 ## Get in touch
 
-If you'd like to discuss a project, correct something I've written, or just say hello - reach me at [danilevskyd@gmail.com](mailto:danilevskyd@gmail.com) or on [LinkedIn](https://www.linkedin.com/in/{{ site.linkedin_username }}).
+If you'd like to discuss a project, correct something I've written, or just say hello - reach me at [{{ site.email }}](mailto:{{ site.email }}) or on [LinkedIn]({{ site.urls_linkedid }}).

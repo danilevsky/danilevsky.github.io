@@ -14,16 +14,16 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: MM
-email:
+email: danilevskyd@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
 twitter_username: danilevskydv
 github_username: danilevsky
-linkedin_username: danilevskiyd
-minimal_mistakes_skin: default
+minimal_mistakes_skin: dark
 search: true
+my_username: &my_username "Denis Danilevskiy"
 
 # Build settings
 markdown: kramdown
@@ -33,7 +33,9 @@ permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
 timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-
+urls_linkedid: &urls_linkedid "https://www.linkedin.com/in/danilevskiyd/"
+urls_upwork: &urls_upwork "https://www.upwork.com/freelancers/danilevsky/"
+urls_github: &urls_github "https://github.com/danilevsky/"
 include:
   - _pages
 
@@ -59,30 +61,31 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name   : "Denis Danilevskiy"
-  avatar : "/assets/images/bio-photo.jpg"
-  bio    : "My awesome biography constrained to a sentence or two goes here."
+  name   : *my_username
+  avatar : "/assets/images/avatar-photo.jpg"
+  bio    : "I am a C++ desktop engineer who loves exploring the inner workings of Windows and multimedia systems. I enjoy sharing what I learn with others along the way."
   links:
-    - label: "LinkedIn"
-      icon: "fab fa-fw fa-linkedin-square"
-      url: "https://www.linkedin.com/in/danilevskiyd/"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/danilevsky/"
+    - label: "LinkedId"
+      icon: "fab fa-fw fa-linkedin"
+      url: *urls_linkedid
     - label: "Upwork"
       icon: "fas fa-fw fa-link"
-      url: "https://www.upwork.com/freelancers/danilevsky/"
+      url: *urls_upwork
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: *urls_github
 
 footer:
-    - label: "LinkedIn"
-      icon: "fab fa-fw fa-linkedin-square"
-      url: "https://www.linkedin.com/in/danilevskiyd/"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/danilevsky/"
+  links:
+    - label: "LinkedId"
+      icon: "fab fa-fw fa-linkedin"
+      url: *urls_linkedid
     - label: "Upwork"
       icon: "fas fa-fw fa-link"
-      url: "https://www.upwork.com/freelancers/danilevsky/"
+      url: *urls_upwork
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: *urls_github
 
 defaults:
   # _posts
