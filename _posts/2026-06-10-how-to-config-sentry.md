@@ -9,6 +9,9 @@ tags:
   - docker
 ---
 
+Sentry is an open-source error and crash reporting platform. The cloud-hosted version is convenient, but has limitations: data leaves your infrastructure, and costs grow quickly with event volume.
+Self-hosting Sentry gives you full control over your data, no per-event pricing, and the ability to integrate with internal tools without exposing anything externally. This guide covers deploying Sentry on your own Ubuntu server with Nginx as a reverse proxy and a Let's Encrypt SSL certificate.
+
 ## 1. Install Sentry
 
 First, prepare your Ubuntu server by adding a [user](https://www.digitalocean.com/community/tutorials/initial-server-setup-with-ubuntu) and installing [Docker](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-22-04).
