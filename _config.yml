@@ -13,15 +13,14 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Home
+title: Denis Danilevskiy - C++/Qt engineer
 email: danilevskyd@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Senior C++/Qt engineer's blog: guides on self-hosted Sentry, crash reporting in Qt apps with sentry-native, and the open-source QGravityUI library.
 twitter_username: danilevskydv
 github_username: danilevsky
 minimal_mistakes_skin: dark
+google_site_verification: "cte0kjVd3fzxQEDXXaSNuZGZfceucBDuyIEyGzm-rPI"
 search: true
 my_username: &my_username "Denis Danilevskiy"
 

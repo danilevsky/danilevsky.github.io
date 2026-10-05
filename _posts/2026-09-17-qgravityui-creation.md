@@ -1,6 +1,7 @@
 ---
 title: "Just open-sourced QGravityUI"
 date:   2026-09-16 10:00:00 +0300
+excerpt: "QGravityUI is an open-source Qt Quick port of the Gravity UI design system: 65 QML controls, 4 themes and 799 icons, with no web engine in the stack."
 categories:
   - blog
 tags:

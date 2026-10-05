@@ -1,6 +1,7 @@
 ---
 title: "How to setup Sentry self-hosted, Nginx with Let's Encrypt"
 date:   2026-06-12 10:00:00 +0300
+excerpt: "Step-by-step setup of self-hosted Sentry on Ubuntu behind Nginx with a Let's Encrypt SSL certificate - keep crash data on your own server."
 categories:
   - blog
 tags:

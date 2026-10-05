@@ -1,6 +1,7 @@
 ---
 title: "How to Build and Integrate sentry-native into a Qt Project"
 date:   2026-06-17 10:00:00 +0300
+excerpt: "Build sentry-native with Visual Studio 2022 and integrate it into a Qt/CMake project, including debug symbol upload for readable crash stack traces."
 categories:
   - blog
 tags:
