@@ -33,7 +33,7 @@ permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
 timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-urls_linkedid: &urls_linkedid "https://www.linkedin.com/in/danilevskiyd/"
+urls_linkedin: &urls_linkedin "https://www.linkedin.com/in/danilevskiyd/"
 urls_upwork: &urls_upwork "https://www.upwork.com/freelancers/danilevsky/"
 urls_github: &urls_github "https://github.com/danilevsky/"
 urls_telegram: &urls_telegram "https://t.me/xonagdev"
@@ -66,9 +66,9 @@ author:
   avatar : "/assets/images/avatar-photo.jpg"
   bio    : "I am a C++ desktop engineer who loves exploring the inner workings of Windows and multimedia systems. I enjoy sharing what I learn with others along the way."
   links:
-    - label: "LinkedId"
+    - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
-      url: *urls_linkedid
+      url: *urls_linkedin
     - label: "Upwork"
       icon: "fas fa-fw fa-link"
       url: *urls_upwork
@@ -81,9 +81,9 @@ author:
 
 footer:
   links:
-    - label: "LinkedId"
+    - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
-      url: *urls_linkedid
+      url: *urls_linkedin
     - label: "Upwork"
       icon: "fas fa-fw fa-link"
       url: *urls_upwork
