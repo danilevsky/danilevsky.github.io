@@ -33,7 +33,7 @@ paginate: 5 # amount of posts to show
 paginate_path: /page:num/
 timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 urls_linkedin: &urls_linkedin "https://www.linkedin.com/in/danilevskiyd/"
-urls_upwork: &urls_upwork "https://www.upwork.com/freelancers/danilevsky/"
+urls_upwork: &urls_upwork "https://www.upwork.com/freelancers/~01c1bf46522fa74616?viewMode=1"
 urls_github: &urls_github "https://github.com/danilevsky/"
 urls_telegram: &urls_telegram "https://t.me/xonagdev"
 include:
